@@ -1,11 +1,13 @@
-import React from 'react';
+import { Content } from './components/layout/Content';
+import { Layout } from './components/layout/Layout';
+import { Sidebar } from './components/layout/sidebar/Sidebar';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      fsdf
-    </div>
+    <Layout>
+      <Sidebar />
+      <Content />
+    </Layout>
   );
 }
 
-export default App;

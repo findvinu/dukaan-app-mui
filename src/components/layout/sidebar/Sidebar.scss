@@ -1,0 +1,96 @@
+/* @import "../../../assets/scss/styles.scss";
+
+.sidebar {
+  width: 204px;
+  background-color: $accent-color;
+  height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+} */
+
+.sidebarHeader {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  padding: 0.85rem 0.85rem 0 0.85rem;
+  margin-bottom: 2.4rem;
+
+  .sidebarHeaderInner {
+    display: flex;
+  }
+
+  .logoTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 22px;
+    color: $text-white-color;
+  }
+  .visitStore {
+    font-size: 1.3rem;
+    line-height: 18px;
+    font-weight: 400;
+    color: $text-white-light-color;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+/* 
+.sidebar-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  align-items: center;
+  color: $text-white-light-color;
+
+  &:hover,
+  &.active {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  & .icon {
+    padding-right: 1.2rem;
+  }
+}
+
+.sidebarFooter {
+  background-color: #353c53;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  width: calc(192px - 24px);
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  margin-bottom: 1rem;
+
+  .footerText {
+    margin-left: 1.2rem;
+  }
+
+  .availableCredit {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: #d7d8dd;
+  }
+
+  .availableAmount {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: $text-white-color;
+  }
+} */
